@@ -68,10 +68,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Snap
 
-# Gello
-PRODUCT_PACKAGES += \
-    Gello
-
 # audio packages
 PRODUCT_PACKAGES += \
     tinymix \
