@@ -62,7 +62,15 @@ PRODUCT_COPY_FILES += $(LOCAL_PATH)/prebuilt/bin/load-bt.sh:system/bin/load-bt.s
 PRODUCT_PACKAGES += \
     l2ping \
     hciconfig \
-    hcitool \
+    hcitool
+
+# Snap
+PRODUCT_PACKAGES += \
+    Snap
+
+# Gello
+PRODUCT_PACKAGES += \
+    Gello
 
 # audio packages
 PRODUCT_PACKAGES += \
